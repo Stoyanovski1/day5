@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %} 
+{% block title %}Hello StaticController!{% endblock %} 
+
+{% block body %}
+        <h1 class="text-center my-5">Welcome to Home Page</h1>
+    <div class="text-center mt-5">
+        <span style="border: 2px solid black;" class="m-3 p-3">Are you registered? please click here <i class="bi bi-arrow-down"></i> <a class="btn btn-primary" href="/login">Login</a></apan> <br>
+    </div>
+
+    <div class="text-center mt-5">
+        <span style="border: 2px solid black;" class="m-3 p-3">Are you not logged in? Please click here <i class="bi bi-arrow-down"></i> <a class="btn btn-primary" href="/register">Register</a> </span> 
+    </div>
+{% endblock %}
